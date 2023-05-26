@@ -1,0 +1,197 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h5 {
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    padding: 0;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  .img-fluid{
+    
+    background-size: cover;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+ 
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn-primary {
+    margin-top: 20px;
+  }
+  
+  /* Deal Section */
+  .deal {
+    padding: 80px 0;
+  }
+  
+  .deal h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .deal .card {
+    margin-bottom: 20px;
+  }
+  
+  .deal .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .deal .card-text {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  /* City Section */
+  .city {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .city h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .city .card {
+    margin-bottom: 20px;
+  }
+  
+  .city .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Property Section */
+  .property {
+    padding: 80px 0;
+  }
+  
+  .property h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .property .card {
+    margin-bottom: 20px;
+  }
+  
+  .property .card-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  /* Rest of the CSS code */
+
+/* Deal Section */
+.deal .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* City Section */
+  .city .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Property Section */
+  .property .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 767px) {
+    .hero h1 {
+      font-size: 32px;
+    }
+    
+    .hero p {
+      font-size: 16px;
+    }
+    
+    .deal .card,
+    .city .card,
+    .property .card {
+      margin-bottom: 30px;
+    }
+    
+    .deal .card-title,
+    .city .card-title,
+    .property .card-title {
+      font-size: 18px;
+    }
+    
+    .footer p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-nav .nav-link {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
